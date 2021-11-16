@@ -1,0 +1,49 @@
+.footer {
+    min-height: 268px;
+    background-color: $bcfooter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+
+    &__logo {
+        display: flex;
+        align-items: center;    
+        font-size: $fs24;
+        font-weight: 700;
+        letter-spacing: 2.4px;  
+        text-transform: uppercase;
+        margin-bottom: 4px;        
+    }
+
+    &__subtitle {
+        letter-spacing: 0.6px;
+        margin-bottom: 21px;
+    }
+
+    &__logo-link {
+        color: $colorwhite;
+        transition: all ease-in-out 0.5s; 
+        &:hover {
+            color: #5474fd;
+        }
+    }
+    
+    &__menu-link { 
+        color: $colorwhite;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        transition: all ease-in-out 0.5s;
+            
+            &:hover {
+              color: #5474fd;
+            }
+    }
+    &__menu-items {
+        display: inline; 
+        padding: 8px;
+    }
+    }
